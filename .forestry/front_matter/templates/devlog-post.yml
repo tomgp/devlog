@@ -34,12 +34,5 @@ fields:
   type: tag_list
   default: []
   label: Subjects
-- name: content
-  type: blocks
-  label: Content
-  template_types: []
-  config:
-    min: 
-    max: 
 pages:
 - _posts/adding-an-html-language-attribute-to-a-nextjs-app.md
