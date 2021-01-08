@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }} – {{ site.description }}</title>
+        <meta name="description" content="{{ site.description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>{{site.title}}</h1>
+        <div id="main" role="main" class="container">
+            {{ content }}
+        </div>
+    </body>
+</html>

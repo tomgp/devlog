@@ -1,1 +1,6 @@
+title: DEVLOG
+description: small things i learned using computers
+sass:
+    sass_dir: _sass
+highlighter: rouge
 
