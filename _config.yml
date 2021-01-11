@@ -1,5 +1,6 @@
 title: DEVLOG
 description: small things i learned using computers
+baseurl: "/devlog"
 sass:
     sass_dir: _sass
 highlighter: rouge
