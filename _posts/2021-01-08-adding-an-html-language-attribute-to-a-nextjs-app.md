@@ -66,6 +66,6 @@ You don't need to explicitly import this `InternationalDocument` anywhere. NextJ
 
 There's a [translate](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/translate "Mozdev translate docs") global attribute
 
-  > an enumerated attribute that is used to specify whether an element's _translateable attribute_ values and its [`Text`](https://developer.mozilla.org/en-US/docs/Web/API/Text) node children should be translated when the page is localized, or whether to leave them unchanged.
+> an enumerated attribute that is used to specify whether an element's _translateable attribute_ values and its [`Text`](https://developer.mozilla.org/en-US/docs/Web/API/Text) node children should be translated when the page is localized, or whether to leave them unchanged.
 
-A big list of lang attribute values
+[A big list of lang attribute values](http://www.toffeemilkshake.co.uk/devlog/2021/01/04/a-big-list-of-lang-attribute-values.html)
