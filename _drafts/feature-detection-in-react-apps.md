@@ -3,7 +3,7 @@ subjects: []
 title: Feature detection in React apps
 subtitle: 'Short version: Use the context API'
 blurb: ''
-date: 
+date: 2021-01-11 00:00:00 +0000
 
 ---
 ## Problem
