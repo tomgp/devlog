@@ -83,4 +83,6 @@ Warning, as the React docs say, using the context API may make components less e
 
 ***
 
+## Tangents
+
 [BBC Responsive News, Cutting the Mustard](https://responsivenews.co.uk/post/18948466399/cutting-the-mustard) an old but still relevant article explaining the rationale and best praxctice behind feature detection as opposed to user agent detection. 
