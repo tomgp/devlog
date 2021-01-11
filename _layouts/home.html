@@ -5,7 +5,7 @@ layout: default
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}">
+            <a href="{{ post.url | relative_url }}">
                 <span class="index-title">{{ post.title }}</span>
                 <span class="index-date">{{ post.date | date_to_string }}</span>
             </a>
