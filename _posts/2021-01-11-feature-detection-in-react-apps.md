@@ -8,7 +8,7 @@ date: 2021-01-11 00:00:00 +0000
 ---
 ## Problem
 
-You want to add some wizzy WebGL (or other not-universally available thing) to your React website. For sanity’s sake you want to do this once in one place in the code and, probably, separate from the [domain logic](https://en.wikipedia.org/wiki/Business_logic).
+You want to add some wizzy WebGL (or other not-universally available thing) to your React website. You need to make sure the client running your code supports this feature. For sanity’s sake you want to do this once, in one place in the code, and probably, separate from the [domain logic](https://en.wikipedia.org/wiki/Business_logic).
 
 ## Solution
 
@@ -46,7 +46,7 @@ First lets make the context provider, it’s a normal react component…
 
 \[2\] the context wrapper component is just a normal functional React component, it too needs to be exported so that things can be wrapped in it
 
-\[3\] when the component is instantiated you can add data to it in the usual ways, either by passing props or, in this case by running a function to find something out about the browser environment in which the code is running \[5\] 
+\[3\] when the component is instantiated you can add data to it in the usual ways, either by passing props or, in this case by running a function to find something out about the browser environment in which the code is running \[5\]
 
 \[4\] finally we return the component markup, the \`Provider\` from the context object  is the outer bit of this markup
 
@@ -78,6 +78,6 @@ Finally to use the information stored in the context…
 
 And that’s about it.
 
-Warning, as the React docs say, using the context API may make components less easy to reuse, if a component relies on a context it won’t be usable without that context 
+Warning, as the React docs say, using the context API may make components less easy to reuse, if a component relies on a context it won’t be usable without that context
 
 —
