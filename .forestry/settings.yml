@@ -12,7 +12,7 @@ sections:
   label: TIL
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - devlog-post
 - type: jekyll-pages

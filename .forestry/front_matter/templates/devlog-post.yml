@@ -36,3 +36,4 @@ fields:
   label: Subjects
 pages:
 - _posts/2021-01-08-adding-an-html-language-attribute-to-a-nextjs-app.md
+- _posts/feature-detection-in-react-apps.md
