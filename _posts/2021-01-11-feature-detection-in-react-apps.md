@@ -6,6 +6,8 @@ blurb: ''
 date: 2021-01-11 00:00:00 +0000
 
 ---
+Short version: Use the [context API](https://reactjs.org/docs/context.html)
+
 ## Problem
 
 You want to add some wizzy WebGL (or other not-universally available thing) to your React website. You need to make sure the client running your code supports this feature. For sanity’s sake you want to do this once, in one place in the code, and probably, separate from the [domain logic](https://en.wikipedia.org/wiki/Business_logic).
@@ -23,12 +25,11 @@ First lets make the context provider, it’s a normal react component…
     export const FeatureDetectionContext = createContext(); [1]
     
     export function FeatureDetectionWrapper({children}){ // [2]
-      const features = {};
-    
-      if (process.browser) {
-        features.webGL = isWebGL(); // [3]
-      }
-    
+      const features = {
+      	webGL:isWebGL(), // [3]
+        // detect some other features here maybe?
+      };
+      
       return (
         <FeatureDetectionContext.Provider value={features}> [4]
           {children}
