@@ -79,6 +79,8 @@ Finally to use the information stored in the context…
 
 And that’s about it.
 
-Warning, as the React docs say, using the context API may make components less easy to reuse, if a component relies on a context it won’t be usable without that context
+Warning, as the React docs say, using the context API may make components less easy to reuse, if a component relies on a context it probably won’t be reusable without that context. I've found that you maybe better off accesing the context data in the component one level above those that require the feature in question that way the individual features can be context free and you have context being accessed in the fewest possible places YMMV.
 
-—
+***
+
+[BBC Responsive News, Cutting the Mustard](https://responsivenews.co.uk/post/18948466399/cutting-the-mustard) an old but still relevant article explaining the rationale and best praxctice behind feature detection as opposed to user agent detection. 
