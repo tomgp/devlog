@@ -26,4 +26,5 @@ fields:
       format: markdown
   label: Description
 pages:
+- _posts/colyseus.md
 - _posts/svelte-modules-explained.md

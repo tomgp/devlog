@@ -1,0 +1,14 @@
+---
+tags:
+- websockets
+- nodejs
+- server
+title: Colyseus
+url: https://docs.colyseus.io/
+description: '"An Authoritative Multiplayer Framework for Node.js" This looks interesting.
+  I''ve been rolling my own such websocket server for playing simple boardgames with
+  friends. This looks like where I might get to with another 5 years of solid and
+  diligent work. For my next game I might ditch my DIY server and switch to this if
+  the setup experience is lightweight enough.'
+
+---
