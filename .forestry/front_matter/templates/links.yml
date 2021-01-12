@@ -25,6 +25,13 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: type
+  type: text
+  config:
+    required: true
+  label: type
+  default: link
+  hidden: true
 pages:
 - _posts/2021-01-12-colyseus.md
 - _posts/svelte-modules-explained.md
